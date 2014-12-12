@@ -1,0 +1,47 @@
+<?php
+/**
+ * @file
+ * An Islandora viewer module using jwplayer.
+ *
+ * @todo
+ *   Try and get libraries dependency working.
+ */
+
+/**
+ * Implements hook_islandora_viewer_info().
+ */
+function islandora_webpageview_islandora_viewer_info() {
+  return array(
+    'islandora_webpageview' => array(
+      'label' => t('Webpage viewer'),
+      'description' => t('Webpage viewer.'),
+      'callback' => 'islandora_webpageview_callback',
+      'mimetype' => array('text/plain'),
+    ),
+  );
+}
+
+/**
+ * Callback function to process audio player.
+ *
+ * @param array $params
+ *   Array with configuration info for the audio player.
+ *
+ * @return string
+ *   The marked up output to render JW Player.
+ */
+function islandora_webpageview_callback($params = array()) {
+  // @TODO: Make it such that a default thumbnail can be used, if one is not
+  // provided in the parameters.
+  $required = array('url');
+  if (count(array_intersect($required, array_keys($params))) === count($required)) {
+    // This should be a theme function.
+    $ancho = variable_get('islandora_webpage_width', '100%');
+    $altura = variable_get('islandora_webpage_height', '500');
+    $module_path = url(drupal_get_path('module', 'islandora_webpageview'));
+    $output = '<div id="webpageviewer"><iframe src="'.$params['url'].'" width="'.$ancho.'" height="'.$altura.'"></iframe><div align="right"><a href="'.$params['url'].'" target="_blank">Abrir sitio web en ventana nueva <img src="'.$module_path.'/images/external.png"></a></div></div>';
+
+    return $output;
+  }
+}
+

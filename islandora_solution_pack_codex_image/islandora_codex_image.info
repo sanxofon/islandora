@@ -1,0 +1,10 @@
+name = "Islandora Codex Image Solution Pack"
+description = "A default Islandora module to handle codex images"
+dependencies[] = islandora
+dependencies[] = imagemagick
+package = Islandora Solution Packs
+version = 7.x-dev
+core = 7.x
+configure = admin/islandora/solution_pack_config/codex_image
+stylesheets[all][] = css/islandora_codex_image.theme.css
+files[] = tests/islandora_codex_image_ingest_purge.test

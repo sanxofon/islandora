@@ -1,0 +1,6 @@
+name = Islandora JW Player Playlists
+description = "A plugin allowing the JW Player to play Islandora content playlists"
+dependencies[] = libraries
+core = 7.x
+version = 7.x-dev
+package = Islandora Viewers

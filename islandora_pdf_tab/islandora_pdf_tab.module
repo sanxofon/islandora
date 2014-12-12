@@ -1,0 +1,98 @@
+<?php
+
+/**
+ * @file
+ * Maneja la creación y despliegue de objetos disco (audio tracks y pdf del librito).
+ */
+
+/**
+ * Implements hook_menu().
+ */
+function islandora_pdf_tab_menu() {
+  return array(
+    'islandora/object/%islandora_object/pdf' => array(
+      'title' => 'PDF',
+      'type' => MENU_LOCAL_TASK,
+      'page callback' => 'islandora_pdf_tab_view',
+      'page arguments' => array(2),
+      'access callback' => 'islandora_pdf_tab_access',
+      'access arguments' => array(2),
+    ),
+  );
+}
+
+/**
+ * Determines whether or not to show this modules tab.
+ *
+ * @global object $user
+ *
+ * @param FedoraObject $fedora_object
+ * A FedoraObject.
+ * 
+ * @return bool
+ * Whether the user has access or not.
+ */
+function islandora_pdf_tab_access($fedora_object) {
+    //Si queremos que aparezca en todos los objetos que contienen un PDF
+    /*if (isset($fedora_object['PDF']) && user_access('view fedora repository objects')) {
+      return TRUE;
+    }
+    return FALSE;*/
+
+    $access = user_access('view fedora repository objects');
+    $object = islandora_object_load($fedora_object);
+    // $object->models checks all the content models associated with an object and
+    // returns them as an array. So here, we're just checking if islandora:sp_pdf
+    // is inside the array of models for this particular object.
+    $accepted_cmodels = array('islandora:sp-discoCModel','islandora:bookCModel');
+    $is_cmodel = FALSE;
+    $af = array_flip($object->models);
+    foreach($accepted_cmodels as $ac) {
+      if (array_key_exists($ac, $af)) {
+        $is_cmodel = TRUE;
+      }
+    }
+
+    if ($access && $is_cmodel) {
+      return TRUE;
+    }
+    return FALSE;
+}
+
+/**
+ * Renders the PDF local menu task view.
+ *
+ * @param AbstractObject $object
+ *   The cd object to fetch the tracks from.
+ *
+ * @return string
+ *   The HTML repersentation of the given cds tracks.
+ */
+function islandora_pdf_tab_view(AbstractObject $object) {
+  // Create a form array.
+  $output = array();
+  // Create the fieldset title for the array.
+  $output['title'] = array(
+    '#type' => 'fieldset',
+    '#title' => t('PDF Viewer'),
+    '#collapsible' => FALSE,
+  );
+  $dsid = 'PDF';
+  // Load the object we want.
+  $object = islandora_object_load($object);
+  // Check if the object has the specified datastream.
+  if (isset($object[$dsid])) {
+    $output['title']['description'] = array(
+      '#markup' => theme('islandora_pdf', array('islandora_object' => $object)),
+    );
+  }
+  // If there is no specified datastream, put that in the description instead.
+  else {
+    $output['title']['description'] = array(
+      '#markup' => "No $dsid metadata was found for this object.",
+    );
+  }
+  // Finally, return the form array to hook_menu.
+  return $output;
+}
+

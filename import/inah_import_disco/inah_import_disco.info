@@ -1,0 +1,10 @@
+name = Importar los datos de la discoteca
+dependencies[] = islandora
+description = Importa los metadatos, portada, PDF y tracks de audio para la colleccion de la discoteca
+package = Repositorio INAH
+configure = admin/islandora/inah_import/disco_import
+version = 7.x-dev
+core = 7.x
+
+
+;files[] = SolrPhpClient/Apache/Solr/Service.php

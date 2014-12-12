@@ -1,0 +1,7 @@
+name = "Islandora Youtube"
+description = "Inslandora Youtube Solution Pack"
+dependencies[] = islandora
+package = Islandora
+core = 7.x
+version = 7.x-dev
+configure = admin/islandora/youtube

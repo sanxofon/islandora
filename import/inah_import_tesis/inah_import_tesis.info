@@ -1,0 +1,10 @@
+name = Importar los datos de Tesis ENAH
+dependencies[] = islandora
+description = Importa los metadatos y PDF para la colleccion de tesis
+package = Repositorio INAH
+configure = admin/islandora/inah_import/manuscrito_batch
+version = 7.x-dev
+core = 7.x
+
+
+;files[] = SolrPhpClient/Apache/Solr/Service.php

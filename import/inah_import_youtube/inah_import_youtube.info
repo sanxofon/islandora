@@ -1,0 +1,10 @@
+name = Importar los datos de youtube
+dependencies[] = islandora
+description = Importa los objetos a la colleccion de youtube
+package = Repositorio INAH
+configure = admin/islandora/inah_import/youtube_batch
+version = 7.x-dev
+core = 7.x
+
+
+;files[] = SolrPhpClient/Apache/Solr/Service.php

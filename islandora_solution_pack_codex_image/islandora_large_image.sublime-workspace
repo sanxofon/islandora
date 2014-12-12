@@ -1,0 +1,992 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"java",
+				"JAVA_HOME"
+			],
+			[
+				"a",
+				"append"
+			],
+			[
+				"catego",
+				"categories"
+			],
+			[
+				"s",
+				"singles"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"h",
+				"href"
+			],
+			[
+				"temp",
+				"temphtml2"
+			],
+			[
+				"te",
+				"temphtml2"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"o",
+				"overflow"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"f",
+				"fondote"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"ff",
+				"fff"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"w",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_piggyback/islandora_piggyback.module",
+			"settings":
+			{
+				"buffer_size": 10424,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_disco/islandora_disco.module",
+			"settings":
+			{
+				"buffer_size": 12070,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Eduardo/Desktop/inah/islandoratabs.php",
+			"settings":
+			{
+				"buffer_size": 4029,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "islandora_codex_image.module",
+			"settings":
+			{
+				"buffer_size": 16150,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/islandora_74/includes/theme.inc",
+			"settings":
+			{
+				"buffer_size": 110180,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_mnah_image/islandora_mnah_image.module",
+			"settings":
+			{
+				"buffer_size": 9299,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_mnah_image/includes/derivatives.inc",
+			"settings":
+			{
+				"buffer_size": 8356,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_mnah_image/css/islandora_mnah_image.theme.css",
+			"settings":
+			{
+				"buffer_size": 1461,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_codex_image/includes/admin.form.inc",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_codex_image/includes/derivatives.inc",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_mnah_image/theme/islandora-mnah-image.tpl.php",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_mnah_image/theme/islandora-mnah-image-print.tpl.php",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_mnah_image/xml/islandora_mnah_image_form_mods.xml",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_mnah_image/xml/islandora_mnah_image_collection_policy.xml",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_mnah_image/xml/islandora_mnah_image_ds_composite_model.xml",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_mnah_image/includes/image_upload.form.inc",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_jwplaylist/islandora_jwplaylist.module",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_mnah_image/islandora_mnah_image.module",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_mnah_image/tests/islandora_mnah_image_ingest_purge.test",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_mnah_image/build.xml",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_mnah_image/.travis.yml",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_mnah_image/islandora_mnah_image.info",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_piggyback/islandora_piggyback.module",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_codex_image/islandora_codex_image.module",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_image/css/islandora_basic_image.theme-rtl.css",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_image/css/islandora_basic_image.theme.css",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_image/includes/derivatives.inc",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_image/includes/image_upload.form.inc",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_image/tests/islandora_basic_image_ingest_purge.test",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_codex_image/tests/islandora_codex_image_ingest_purge.test",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_image/theme/islandora-basic-image-print.tpl.php",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_image/theme/islandora-basic-image.tpl.php",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_image/xml/islandora_basic_image_collection_policy.xml",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_image/xml/islandora_basic_image_ds_composite_model.xml",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_image/xml/islandora_basic_image_form_mods.xml",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_image/islandora_basic_image.module",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_image/islandora_basic_image.install",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_image/islandora_basic_image.info",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_codex_image/includes/utilities.inc",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_codex_image/includes/image_upload.form.inc",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_codex_image/css/islandora_codex_image.theme.css",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_codex_image/theme/islandora-codex-image.tpl.php",
+		"/C/Users/Eduardo/Desktop/flipgorilla-embed/flipgorilla.php",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_codex_image/islandora_codex_image.info",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_codex_image/css/islandora_large_image.theme.css",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_codex_image/tests/islandora_large_image_ingest_purge.test",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_codex_image/theme/islandora-large-image.tpl.php",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_codex_image/theme/islandora-large-image-print.tpl.php",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_codex_image/xml/islandora_large_image_collection_policy.xml",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_codex_image/xml/islandora_large_image_ds_composite_model.xml",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_codex_image/xml/islandora_large_image_form_mods.xml",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_codex_image/adore.sh",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_codex_image/islandora_large_image.info",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_codex_image/islandora_large_image.install",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_codex_image/islandora_large_image.module",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_codex_image/build.xml",
+		"/C/opt/tomcat/bin/startup.sh",
+		"/C/opt/tomcat/bin/startup.bat",
+		"/C/opt/adore-djatoka/bin/env.bat",
+		"/C/opt/tomcat/webapps/adore-djatoka/WEB-INF/classes/log4j.properties",
+		"/C/opt/adore-djatoka/bin/tomcat.bat",
+		"/C/opt/tomcat/logs/djatoka.log",
+		"/C/Users/Eduardo/Desktop/adore-djatoka-1.1/INSTALL.txt",
+		"/C/opt/adore-djatoka/bin/env.sh",
+		"/C/opt/tomcat/bin/catalina.bat",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_large_image/xml/islandora_large_image_ds_composite_model.xml",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_large_image/includes/derivatives.inc",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_large_image/includes/admin.form.inc",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_large_image/islandora_large_image.module",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_large_image/includes/image_upload.form.inc",
+		"/C/opt/tomcat/webapps/adore-djatoka/WEB-INF/classes/djatoka.properties",
+		"/C/opt/tomcat/webapps/adore-djatoka/META-INF/MANIFEST.MF",
+		"/C/opt/tomcat/webapps/adore-djatoka/WEB-INF/web.xml",
+		"/C/opt/tomcat/webapps/adore-djatoka/WEB-INF/classes/imgIndex.txt",
+		"/C/opt/tomcat/webapps/adore-djatoka.war",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/islandora/islandora_solution_pack_image-7.x-1.3/islandora_basic_image.module",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/islandora_depend/islandora_cloud_zoom-7.x-1.3/islandora_cloud_zoom.module",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/islandora_depend/islandora_jwplayer-7.x-1.3/islandora_jwplayer.module",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/tests/starplugins_cloudzoom/starplugins_cloudzoom.module",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/imagemagick/imagemagick.module",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/islandora/islandora_solution_pack_large_image-7.x-1.3/includes/derivatives.inc",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/islandora/islandora_solution_pack_large_image-7.x-1.3/islandora_large_image.module",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/islandora_depend/islandora_cloud_zoom-7.x-1.3/islandora_cloud_zoom.info",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/tests/starplugins_cloudzoom/starplugins_cloudzoom.info",
+		"/C/xampp/htdocs/islandora_74/sites/all/libraries/jwplayer/README.html",
+		"/C/xampp/htdocs/islandora_74/sites/all/libraries/jwplayer/jwplayer.html5.js",
+		"/C/xampp/htdocs/islandora_74/sites/all/libraries/jwplayer/jwplayer.js",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/tests/starplugins_cloudzoom/cloudzoom/cloudzoom.setup.js",
+		"/C/xampp/htdocs/islandora_74/sites/all/libraries/cloud-zoom/cloud-zoom.1.0.3.js",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/tests/starplugins_cloudzoom/cloudzoom/cloudzoom.css",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/tests/starplugins_cloudzoom/cloudzoom/cloudzoom.js",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/islandora/islandora_solution_pack_video-7.x-1.3/islandora_video.module",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/islandora/islandora_solution_pack_video-7.x-1.3/islandora_video.info",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/islandora_depend/islandora_jwplayer-7.x-1.3/js/player.js",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/islandora/islandora_solution_pack_image-7.x-1.3/xml/islandora_basic_image_content_model.xml",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/islandora/islandora_solution_pack_image-7.x-1.3/includes/derivatives.inc",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/islandora/islandora_solution_pack_image-7.x-1.3/css/islandora_basic_image.theme.css",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/islandora/islandora_solution_pack_image-7.x-1.3/css/islandora_basic_image.theme-rtl.css",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/islandora/islandora_solution_pack_image-7.x-1.3/theme/islandora-basic-image.tpl.php",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/islandora/islandora_solution_pack_image-7.x-1.3/theme/islandora-basic-image-print.tpl.php",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/islandora_depend/islandora_jwplayer-7.x-1.3/build/Doxyfile",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/islandora_depend/islandora_jwplayer-7.x-1.3/README.md",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/islandora_depend/islandora_jwplayer-7.x-1.3/build.xml",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_porcus/includes/derivatives.inc",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_porcus/includes/islandora_porcus_upload.form.inc",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_porcus/includes/islandora_porcus.admin.inc",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_porcus/islandora_porcus.module",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/islandora/islandora_solution_pack_image-7.x-1.3/xml/islandora_basic_image_form_mods.xml",
+		"/C/Users/Eduardo/Desktop/marc.xml",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/islandora/islandora_solution_pack_image-7.x-1.3/xml/islandora_basic_image_ds_composite_model.xml",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/islandora/islandora_solution_pack_image-7.x-1.3/xml/islandora_basic_image_collection_policy.xml",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/islandora/islandora_solution_pack_image-7.x-1.3/.travis.yml",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/islandora/islandora_solution_pack_image-7.x-1.3/build.xml",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/islandora/islandora_solution_pack_image-7.x-1.3/islandora_basic_image.info",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/views/includes/plugins.inc",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/views/includes/view.inc",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/contribute/views/modules/book/views_plugin_argument_default_book_root.inc",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_porcus/islandora_porcus.info",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_large_image/includes/utilities.inc",
+		"/C/Users/Eduardo/Desktop/starplugins_cloudzoom/starplugins_cloudzoom.module",
+		"/C/Users/Eduardo/Desktop/starplugins_cloudzoom/starplugins_cloudzoom.info",
+		"/C/Users/Eduardo/Desktop/MODS Record.xml",
+		"/C/Users/Eduardo/Desktop/DC Record.xml",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_porcus/xml/islandora_porcus_form_mods.xml",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_porcus/css/islandora_porcus.css",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_porcus/js/islandora_porcus.js",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_porcus/theme/islandora-porcus.tpl.php",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_porcus/islandora_porcus.install",
+		"/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_flexpaper_viewer/README",
+		"/C/Users/Eduardo/Desktop/drupal-7.31/CHANGELOG.txt",
+		"/C/Users/Eduardo/Desktop/drupal-7.31/authorize.php",
+		"/C/Users/Eduardo/Desktop/drupal-7.31/index.php",
+		"/C/Users/Eduardo/Desktop/drupal-7.31/INSTALL.mysql.txt",
+		"/C/Users/Eduardo/Desktop/drupal-7.31/INSTALL.pgsql.txt",
+		"/C/Users/Eduardo/Desktop/drupal-7.31/INSTALL.sqlite.txt",
+		"/C/Users/Eduardo/Desktop/drupal-7.31/install.php"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\islandora_74\\sites\\all\\modules\\islandora\\islandora_solution_pack_mnah_image",
+			"C:\\xampp\\htdocs\\islandora_74\\sites\\all\\modules\\islandora\\islandora_solution_pack_image",
+			"C:\\xampp\\htdocs\\islandora_74\\sites\\all\\modules\\islandora\\islandora_solution_pack_codex_image",
+			"C:\\xampp\\htdocs\\islandora_74\\sites\\all\\modules\\contribute\\islandora\\islandora_solution_pack_large_image-7.x-1.3"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tif",
+			"CModel",
+			"islandora-mnah-image-content",
+			"collection",
+			"mnah-collection",
+			"mnah_collection",
+			"asic",
+			"basic-image",
+			"pack_image",
+			"basic_image",
+			"basic-image",
+			"image_upload.form",
+			"asic",
+			"basic_image",
+			"asic",
+			"basic_image",
+			"asic",
+			"basic_image",
+			"IslandoraBasicImage",
+			"-basic-",
+			"basic-image",
+			"basic_image",
+			"paged",
+			"cmodel",
+			"islandora-large-image-",
+			"Large",
+			"IslandoraLarge",
+			"islandora_large_image",
+			"islandora-large-image",
+			"large",
+			"islandora_large_image",
+			"large",
+			"islandora_large_image",
+			"large",
+			"islandora_large_image",
+			"large",
+			"islandora_large_image",
+			"large-image",
+			"large_image",
+			"islandora_large_image",
+			"tif",
+			"src",
+			"[0]",
+			"showCodexSize",
+			"view_object",
+			"1.122024 -6.299192 -0.816078",
+			"36.0-01047",
+			"11.0-01913",
+			"direcciones",
+			"Distrito Federal",
+			"g",
+			"sf",
+			"direcciones",
+			"kerami",
+			"category",
+			"\"category\":\"*\",",
+			"\"category\":\"Centro INAH Querétaro\",",
+			"\"category\":\"El Centro INAH del Estado de México\",",
+			"images/eventos/",
+			"\"category\":\"Archivo Histórico del Estado Pablo L. Martínez. Instituto Sudcaliforniano de Cultura\",",
+			"\"category\":\"Museo Regional de Historia de Aguascalientes\"",
+			"\"category\":\"La Secretaría de Educación Pública (SEP), el Consejo Nacional para la Cultura y las Artes (CONACULTA), el Instituto Nacional de Antropología e Historia, el Centro INAH Aguascalientes a través del Museo Regional de Historia de Aguascalientes\",",
+			"fullsrc\":\"images\\/eventos\\/\"",
+			"fullsrc\":\"",
+			"lowsrc\":\"",
+			"/14",
+			"null",
+			"<option value=\"",
+			"<option value=",
+			"Antropología Física",
+			"Antropología Ling",
+			"Antropología Física",
+			"\"disciplina\":\"Antropología",
+			"\"disciplina\":\"Antropología Física\"",
+			"</span></li><li class=\"galereya-cats-item\"><span>",
+			"</li><li class=\"galereya-cats-item\">",
+			"<li class=\"galereya-cats-item\">",
+			"font",
+			"categories",
+			"==",
+			"galereya-cell",
+			"categories",
+			"console",
+			"addInfo",
+			"loadData",
+			"Humanidades. Fechas: 7, 14, 21 y 28 de agosto 2014, de la",
+			" de la administración.   Programa:  4 de septiembre",
+			"Nacional de Antropología e Historia, material que constitu",
+			"en la etapa independiente y contemporánea, a",
+			"ópera y repertorio en la Escuela Nacional de Música de la U",
+			"'Tipografía jesuita en Puebla: la imprenta del Colegio Real de San Ignacio",
+			"'Tipografía jesuita en Puebla: la imprenta del Colegio Real de San Ignacio\\' Dra",
+			"Iberoamericana, donde también realizó la Licenciatura e",
+			" Ven y conoce con nosotros los",
+			"Dir. Carl Erik",
+			"Museo Nacional de las Culturas. Imparte: Marco Antonio Cervera Obregón,",
+			"Fray Bernardino de Sahagún del  Museo Nacional de Antropología (MNA). Entrada l",
+			"Antigüedad en investigación científica y docencia de",
+			"tipo\":\"Visita Guiada",
+			"tipo:\"Visita Guiada",
+			"tipo:\"Visitas Guiadas ",
+			"Pachuca",
+			"Monterrey, Nuevo León",
+			"museos.json",
+			"null",
+			"\\\\'",
+			"eventos4",
+			"\"category\":",
+			"\"category\":\"La Secretaría de Educación Pública (SEP), el Consejo Nacional para la Cultura y las Artes (CONACULT\",",
+			"\"category\":\"El Consejo Nacional para la Cultura y las Artes (CONACULTA), a través del Instituto Nacional de Ant\",",
+			"\"category\":\"El Instituto Nacional de Antropología e Historia (INAH) y el Consejo Nacional para la Cultura y las\",",
+			"\"category\":\"El Instituto Nacional de Antropología e Historia (INAH) y el Museo Nacional de Antropología\",",
+			"\"category\":\"El Instituto Nacional de Antropología e Historia (INAH), la Dirección de Estudios Históricos (DEH) \",",
+			"\"category\":\"Museo Nacional del Virreinato (MNV)\",",
+			"\"category\":\"El Consejo Nacional para la Cultura y las Artes (CONACULTA), el Instituto Nacional de Antropología \",",
+			"\"category\":\"Museo Nacional de Historia. Castillo de Chapultepec.\",",
+			"\"category\":\"El Instituto Nacional de Antropología e Historia, el Museo Nacional de las Culturas y el Centro de \",",
+			"\"category\":\"Museo Nacional de las Culturas\",",
+			"\"category\":\" Museo Nacional de las Culturas\",",
+			"\"category\":\" Museo Nacional de las Culturas\",\"lugar\":\"Sala Intermedia del Museo Nacional de las Culturas\",",
+			"\"category\":\" El Instituto Nacional de Antropología e Historia (INAH), a través de la Biblioteca Nacional de Ant\",",
+			"\"category\":\"Departamento de Servicios Educativos del Museo Nacional de Antropología (MNA)\",",
+			"\"category\":\"Coordinación Académica del Museo Nacional de Antropología e Historia (MNA)\",",
+			"\"category\":\"El Consejo Nacional para la Cultura y las Artes (CONACULTA) y el Instituto Nacional de Antropología\",",
+			"\"category\":\"El Instituto Nacional de Antropología e Historia (INAH) a través de la Coordinación Nacional de Ant\",",
+			"\"category\":\" Museo Nacional de Antropología (MNA)\",",
+			"\"category\":\"El Instituto Nacional de Antropología e Historia (INAH) a atrvés del Museo Nacional de Antropología\",",
+			"\"category\":\"Sección 3 Distrito Federal del Sindicato Nacional de los Trabajadores Administrativos, Técnicos y \","
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"mnah-image",
+			"pack_mnah_image",
+			"mnah_image",
+			"mnah-image",
+			"mnah_image",
+			"IslandoraMNAHImage",
+			"-mnah-",
+			"mnah-image",
+			"mnah_image",
+			"islandora-codex-image-",
+			"Codex",
+			"IslandoraCodex",
+			"islandora_codex_image",
+			"codex-image",
+			"codex_image",
+			"islandora_codex_image",
+			"eventos5",
+			"expos",
+			"",
+			"images\\/eventos\\/",
+			"",
+			"fullsrc\":\"\"",
+			"fullsrc\":\"images\\/eventos\\/",
+			"lowsrc\":\"images\\/eventos\\/",
+			"/2014",
+			"\"\"",
+			"",
+			"Antropología",
+			"\"disciplina\":\"Antropología\"",
+			" ",
+			"",
+			"eventos.json",
+			"\"\"",
+			"'",
+			"direcciones",
+			"",
+			"'",
+			"\"\"",
+			"'",
+			"\"\"",
+			"\\'",
+			"eventos4",
+			"museos3",
+			"imagend\":\"\"",
+			"imagenc\":\"\"",
+			"imagenb\":\"\"",
+			"fullsrc\":\"\"",
+			"lowsrc\":\"\"",
+			"imagend\":\"images\\/eventos\\/",
+			"imagenc\":\"images\\/eventos\\/",
+			"imagenb\":\"images\\/eventos\\/",
+			"fullsrc\":\"images\\/eventos\\/",
+			"lowsrc\":\"images\\/eventos\\/",
+			"/2014",
+			"\"\"",
+			"",
+			"museos",
+			"imagend\":\"\"",
+			"imagenc\":\"\"",
+			"imagenb\":\"\"",
+			"fullsrc\":\"\"",
+			"lowsrc\":\"\"",
+			"imagend\":\"images\\/eventos\\/",
+			"imagenc\":\"images\\/eventos\\/",
+			"imagenb\":\"images\\/eventos\\/",
+			"fullsrc\":\"images\\/eventos\\/",
+			"lowsrc\":\"images\\/eventos\\/",
+			"/2014",
+			"\"\"",
+			"",
+			"imagenc\":\"\"",
+			"imagenb\":\"\"",
+			"imagenc\":\"images\\/eventos\\/",
+			"imagenb\":\"images\\/eventos\\/",
+			"fullsrc\":\"\"",
+			"lowsrc\":\"\"",
+			"fullsrc\":\"images\\/eventos\\/",
+			"lowsrc\":\"images\\/eventos\\/",
+			"/2014",
+			"\"\"",
+			"",
+			"/2014",
+			"\"fullsrc\":\"\"",
+			"\"lowsrc\":\"\"",
+			"\"fullsrc\":\"images\\/eventos\\/",
+			"\"lowsrc\":\"images\\/eventos\\/",
+			"\"\"",
+			"",
+			"fullsrc\":\"\"",
+			"lowsrc\":\"\"",
+			"fullsrc\":\"images\\/eventos\\/",
+			"lowsrc\":\"images\\/eventos\\/",
+			"imagenb\":\"\"",
+			"imagenb\":\"images\\/eventos\\/",
+			"\"\"",
+			"/2014\"",
+			"video",
+			"\"imagenb\":\"\"",
+			"imagenb\":\"images\\/eventos\\/",
+			"fullsrc\":\"images\\/eventos\\/",
+			"lowsrc\":\"images\\/eventos\\/",
+			"\"\"",
+			"/2014",
+			"jpg",
+			"\"imagenb\":\"\"",
+			"\"imagenc\":\"\"",
+			"\"imagend\":\"\"",
+			"\"imagend\":\"images\\/eventos\\/",
+			"\"imagenc\":\"images\\/eventos\\/",
+			"\"imagenb\":\"images\\/eventos\\/",
+			"\"fullsrc\":\"\"",
+			"\"lowsrc\":\"\"",
+			"fullsrc\":\"images\\/eventos\\/",
+			"lowsrc\":\"images\\/eventos\\/",
+			"/2014",
+			"\"fullsrc\":\"images\\/eventos\\/",
+			"\"lowsrc\":\"images\\/eventos\\/",
+			"\"\"",
+			"",
+			"fototeca",
+			"/2014\"",
+			"\"\"",
+			"\"lowsrc\":\"images\\/eventos\\/",
+			"\"fullsrc\":\"images\\/eventos\\/",
+			"\"lowsrc\":\"images\\/eventos\\/",
+			"\"\"",
+			"\"fullsrc\":\"images\\/eventos\\/",
+			"\"lowsrc\":\"images\\/eventos\\/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_piggyback/islandora_piggyback.module",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5223,
+								5223
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_disco/islandora_disco.module",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12070,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								753,
+								753
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Eduardo/Desktop/inah/islandoratabs.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4029,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3011,
+								3011
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "islandora_codex_image.module",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2893,
+								2893
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1026.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/xampp/htdocs/islandora_74/includes/theme.inc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 110180,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								80,
+								80
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 19830.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_mnah_image/islandora_mnah_image.module",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9299,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1751.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_mnah_image/includes/derivatives.inc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8356,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5115,
+								5115
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2508.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/xampp/htdocs/islandora_74/sites/all/modules/islandora/islandora_solution_pack_mnah_image/css/islandora_mnah_image.theme.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1461,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								505,
+								505
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "islandora_large_image.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 305.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

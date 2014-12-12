@@ -1,0 +1,9 @@
+name = "Islandora disco"
+description = "Inslandora Basic CD/LP Multitrack Audio & Booklet PDF Solution Pack"
+dependencies[] = islandora
+package = Islandora
+core = 7.x
+version = 7.x-1.3
+configure = admin/islandora/disco
+stylesheets[all][] = css/islandora_disco.theme.css
+

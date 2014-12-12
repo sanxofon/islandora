@@ -1,0 +1,10 @@
+name = Actualizar MODS by PID
+dependencies[] = islandora
+description = Actualiza los MODS y DC por PID
+package = Repositorio INAH
+configure = admin/islandora/inah_import/mods_batch
+version = 7.x-dev
+core = 7.x
+
+
+;files[] = SolrPhpClient/Apache/Solr/Service.php

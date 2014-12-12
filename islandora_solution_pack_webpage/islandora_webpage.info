@@ -1,0 +1,7 @@
+name = "Islandora Webpage"
+description = "Inslandora Webpage Solution Pack"
+dependencies[] = islandora
+package = Islandora
+core = 7.x
+version = 7.x-dev
+configure = admin/islandora/webpage

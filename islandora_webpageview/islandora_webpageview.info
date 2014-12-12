@@ -1,0 +1,5 @@
+name = Islandora Webpage Viewer
+description = "Plugin que permite ver webpages en islandora"
+core = 7.x
+version = 7.x-dev
+package = Islandora Viewers

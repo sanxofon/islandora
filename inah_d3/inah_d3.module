@@ -1,0 +1,16 @@
+<?php
+drupal_set_time_limit(1200);
+function inah_d3_menu(){
+  $items = array();
+  $items['admin/islandora/inah_d3'] = array(
+    'title' => t( 'INAH D3'),
+    'description' => t('D3 plot of repository objects'),
+    'page callback' => 'drupal_get_form',
+    'access arguments' => array(true),
+    'page arguments' => array('inah_d3_init'),
+    'file' => 'include/data.inc',  
+    'type' => MENU_LOCAL_TASK,
+    );
+  return $items;
+}
+

@@ -1,0 +1,10 @@
+name = Importar los datos de manuscritos
+dependencies[] = islandora
+description = Importa los metadatos e imágenes para la colleccion de manuscritos, genera PDF
+package = Repositorio INAH
+configure = admin/islandora/inah_import/manuscrito_batch
+version = 7.x-dev
+core = 7.x
+
+
+;files[] = SolrPhpClient/Apache/Solr/Service.php

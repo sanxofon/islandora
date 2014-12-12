@@ -1,0 +1,6 @@
+name = Islandora INAH Mime Types
+dependencies[] = islandora
+description = Página que despliega los objetos con un determinado Mime Type en el OBJ
+package = Repositorio INAH
+version = 7.x-dev
+core = 7.x

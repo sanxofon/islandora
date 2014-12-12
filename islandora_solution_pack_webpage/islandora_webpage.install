@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Install hooks for this module.
+ */
+
+/**
+ * Implements hook_install().
+ *
+ * @see islandora_youtube_islandora_required_objects()
+ */
+function islandora_webpage_install() {
+  module_load_include('inc', 'islandora', 'includes/solution_packs');
+  islandora_install_solution_pack('islandora_webpage');
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function islandora_webpage_uninstall() {
+  module_load_include('inc', 'islandora', 'includes/solution_packs');
+  islandora_install_solution_pack('islandora_webpage', 'uninstall');
+}

@@ -1,0 +1,14 @@
+<?php
+
+function islandora_inah_mimetypes_menu(){
+  $items = array();
+  $items['inah/mimetype/arguments/%'] = array(
+    'page callback' => 'islandora_inah_mimetypes_admin',
+    'page arguments' => array(3),
+    //'access callback' => TRUE,
+    'access arguments' => array('access content'),
+    'file' => 'include/islandora_inah_mimetypes_admin.inc',  
+    'type' => MENU_CALLBACK,
+  );
+  return $items;
+}

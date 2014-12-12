@@ -1,0 +1,16 @@
+<?php
+
+function islandora_inah_tabs_menu(){
+  $items = array();
+  $items['admin/islandora/inah_tabs'] = array(
+    'title' => t( 'Islandora INAH Tabs'),
+    'description' => t('Agrega tabs de jquery a la vista de los objetos de Islandora'),
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('islandora_inah_tabs_admin'),
+    'file' => 'include/islandora_inah_tabs_admin.inc',  
+    'access arguments' => array(true),
+    'type' => MENU_LOCAL_TASK,
+    );
+  return $items;
+}
+

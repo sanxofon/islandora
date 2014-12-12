@@ -1,0 +1,7 @@
+name = INAH Mimetype block
+dependencies[] = islandora
+description = Agrega un bloque de tipos mime a islandora
+package = Repositorio INAH
+configure = admin/islandora/block_mimetipo
+version = 7.x-dev
+core = 7.x

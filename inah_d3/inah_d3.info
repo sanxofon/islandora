@@ -1,0 +1,7 @@
+name = INAH D3
+dependencies[] = islandora
+description = D3 tree viewer
+package = Repositorio INAH
+configure = admin/islandora/inah_d3
+version = 7.x-dev
+core = 7.x

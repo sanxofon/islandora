@@ -1,0 +1,25 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\xampp\\htdocs\\islandora_74\\sites\\all\\modules\\islandora\\islandora_solution_pack_mnah_image"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\xampp\\htdocs\\islandora_74\\sites\\all\\modules\\islandora\\islandora_solution_pack_disco"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\xampp\\htdocs\\islandora_74\\sites\\all\\modules\\islandora\\islandora_jwplaylist"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\xampp\\htdocs\\islandora_74\\sites\\all\\modules\\islandora\\islandora_piggyback"
+		}
+	]
+}

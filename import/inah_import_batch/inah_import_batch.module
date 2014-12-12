@@ -1,0 +1,33 @@
+<?php
+
+/**
+ * 
+ */
+function inah_import_batch_menu(){
+	$items = array();
+	$items['admin/islandora/inah_import'] = array(
+		'title' => t( 'INAH batch imports'),
+		'page callback' => 'drupal_get_form',
+		'page arguments' => array('inah_import_batch_admin'),
+		'file' => 'include/inah_import_batch_admin.inc',	
+		'access arguments' => array(true),
+		'type' => MENU_NORMAL_ITEM,
+	  );
+	$items['admin/islandora/inah_import/object_purge'] = array(
+		'title' => t( 'Object batch purge'),
+		'page callback' => 'drupal_get_form',
+		'page arguments' => array('inah_import_batch_purge'),
+		'file' => 'include/inah_import_batch_purge.inc',	
+		'access arguments' => array(true),
+		'type' => MENU_LOCAL_TASK,
+	  );
+	$items['admin/islandora/inah_import/object_query'] = array(
+		'title' => t( 'Clean DC of collection childs'),
+		'page callback' => 'drupal_get_form',
+		'page arguments' => array('inah_import_object_query'),
+		'file' => 'include/inah_import_object_query.inc',	
+		'access arguments' => array(true),
+		'type' => MENU_LOCAL_TASK,
+	  );
+  return $items;
+}

@@ -1,0 +1,222 @@
+<?php
+/**
+* @file
+* Module file for block_mimetipo.
+*/
+
+/**
+* Implements hook_menu().
+*
+* Provides a default page to explain what this module does.
+*/
+function block_mimetipo_menu() {
+  $items['admin/islandora/block_mimetipo'] = array(
+    'page callback' => 'block_mimetipo_page',
+    'access callback' => TRUE,
+    'title' => t('MimeType Block'),
+    );
+  return $items;
+}
+/**
+* Simple page function to explain what the block example is about.
+*/
+function block_mimetipo_page() {
+  $page = array(
+    '#type' => 'markup',
+    '#markup' => t('Módulo que agrega un bloque de búsqueda de objetos en islandora por tipos mime. Debe activar el módulo en <a href="@url">administración de bloques</a>.', array('@url' => url('admin/structure/block'))),
+    );
+  return $page;
+}
+/**
+* Implements hook_block_info().
+*
+* This hook declares what blocks are provided by the module.
+*/
+function block_mimetipo_block_info() {
+// This hook returns an array, each component of which is an array of block
+// information. The array keys are the 'delta' values used in other block
+// hooks.
+//
+// The required block information is a block description, which is shown
+// to the site administrator in the list of possible blocks. You can also
+// provide initial settings for block weight, status, etc.
+//
+// Many options are defined in hook_block_info():
+  $blocks['mimetipo'] = array(
+// info: The name of the block.
+    'info' => t('INAH Bloque Mime Type'),
+// Block caching options (per role, per user, etc.)
+// DRUPAL_CACHE_PER_ROLE is the default.
+    //'cache' => DRUPAL_CACHE_PER_ROLE,
+    'cache' => DRUPAL_NO_CACHE,
+    //'visibility' => BLOCK_VISIBILITY_LISTED,
+    'region' => 'content',
+    'status' => TRUE,
+    );
+  $blocks['random'] = array(
+// info: The name of the block.
+    'info' => t('INAH Bloque random'),
+// Block caching options (per role, per user, etc.)
+// DRUPAL_CACHE_PER_ROLE is the default.
+    //'cache' => DRUPAL_CACHE_PER_ROLE,
+    'cache' => DRUPAL_NO_CACHE,
+    //'visibility' => BLOCK_VISIBILITY_LISTED,
+    'region' => 'content',
+    'weight' => 999,
+    'status' => TRUE,
+    );
+  return $blocks;
+}
+/**
+* Implements hook_block_configure().
+*
+* This hook declares configuration options for blocks provided by this module.
+*/
+function block_mimetipo_block_configure($delta = '') {
+  $form = array();
+// The $delta parameter tells us which block is being configured.
+// In this example, we'll allow the administrator to customize
+// the text of the 'configurable text string' block defined in this module.
+  if ($delta == 'mimetipo') {
+// All we need to provide is the specific configuration options for our
+// block. Drupal will take care of the standard block configuration options
+// (block title, page visibility, etc.) and the save button.
+    $form['block_mimetipo_string'] = array(
+      '#type' => 'text_format',
+      '#title' => t('Mime Types in repository'),
+      '#size' => 60,
+      '#description' => t('Esta variable será recalculada cuando guarde los cambios.'),
+      '#default_value' => variable_get('block_mimetipo_string', t('text/plain')),
+      '#format' => 'plain_text',
+      );
+  } elseif ($delta == 'random') {
+// All we need to provide is the specific configuration options for our
+// block. Drupal will take care of the standard block configuration options
+// (block title, page visibility, etc.) and the save button.
+    $form['block_mimetipo_random'] = array(
+      '#type' => 'textfield',
+      '#title' => t('Limit random results'),
+      '#size' => 60,
+      '#element_validate' => array('element_validate_number'),
+      '#description' => t('How many random items to show in block.'),
+      '#default_value' => variable_get('block_mimetipo_random', 3),
+      );
+  }
+  return $form;
+}
+/**
+* Implements hook_block_save().
+*
+* This hook declares how the configured options for a block
+* provided by this module are saved.
+*/
+function block_mimetipo_block_save($delta = '', $edit = array()) {
+  // We need to save settings from the configuration form.
+  // We need to check $delta to make sure we are saving the right block.
+  if ($delta == 'mimetipo') {
+    module_load_include('inc', 'islandora_inah_mimetypes', 'include/islandora_inah_mimetypes_admin');
+    $repo = islandora_inah_mimetypes_connectToFedora();
+    $mimes = islandora_inah_mimetypes_get_mimes($repo, '');
+    $mimes = implode(",", $mimes);
+  // Have Drupal save the string to the database.
+    variable_set('block_mimetipo_string', $mimes);
+  } elseif ($delta == 'random') {
+  // Have Drupal save the string to the database.
+    variable_set('block_mimetipo_random', $edit['block_mimetipo_random']);
+  }
+}
+/**
+* Implements hook_block_view().
+*
+* This hook generates the contents of the blocks themselves.
+*/
+function block_mimetipo_block_view($delta = '') {
+// The $delta parameter tells us which block is being requested.
+  $block = false;
+  switch ($delta) {
+    case 'mimetipo':
+      $block = array();
+      // The subject is displayed at the top of the block. Note that it
+      // should be passed through t() for translation. The title configured
+      // for the block using Drupal UI supercedes this one.
+      $block['subject'] = t('Objetos por MimeType');
+      // The content of the block is typically generated by calling a custom
+      // function.
+      module_load_include('inc', 'islandora_inah_mimetypes', 'include/islandora_inah_mimetypes_admin');
+      $block['content'] = islandora_inah_mimetypes_mime_block();
+    break;
+    case 'random':
+      $block = array();
+      // The subject is displayed at the top of the block. Note that it
+      // should be passed through t() for translation. The title configured
+      // for the block using Drupal UI supercedes this one.
+      $block['subject'] = t('Objetos al azar');
+      // The content of the block is typically generated by calling a custom
+      // function.
+      module_load_include('inc', 'islandora_inah_mimetypes', 'include/islandora_inah_mimetypes_admin');
+      $block['content'] = islandora_inah_mimetypes_random_block();
+    break;
+  }
+  return $block;
+}
+/*
+* The following hooks can be used to alter blocks
+* provided by your own or other modules.
+*/
+/**
+* Implements hook_block_list_alter().
+*
+* This hook allows you to add, remove or modify blocks in the block list. The
+* block list contains the block definitions. This example requires
+* search module and the search block enabled
+* to see how this hook implementation works.
+*
+* You may also be interested in hook_block_info_alter(), which allows changes
+* to the behavior of blocks.
+*/
+/*function block_mimetipo_block_list_alter(&$blocks) {
+// We are going to make the search block sticky on bottom of regions. For
+// this example, we will modify the block list and append the search block at
+// the end of the list, so even if the administrator configures the block to
+// be on the top of the region, it will demote to bottom again.
+  foreach ($blocks as $bid => $block) {
+    if (($block->module == 'search') && ($block->delta == 'form')) {
+// Remove the block from the list and append to the end.
+      unset($blocks[$bid]);
+      $blocks[$bid] = $block;
+      break;
+    }
+  }
+}*/
+/**
+* Implements hook_block_view_alter().
+*
+* This hook allows you to modify the output of any block in the system.
+*
+* In addition, instead of hook_block_view_alter(), which is called for all
+* blocks, you can also use hook_block_view_MODULE_DELTA_alter() to alter a
+* specific block. To change only our block using
+* hook_block_view_MODULE_DELTA_alter, we would use the function:
+* block_mimetipo_block_view_block_mimetipo_example_configurable_text_alter()
+*
+* We are going to uppercase the subject (the title of the block as shown to the
+* user) of any block if the string "uppercase" appears in the block title or
+* subject. Default block titles are set programmatically in the subject key;
+* titles created through the UI are saved in the title key. This module creates
+* an example block to demonstrate this effect (default title set
+* programmatically as subject). You can also demonstrate the effect of this
+* hook by creating a new block whose title has the string 'uppercase' in it
+* (set as title through the UI).
+*/
+/*function block_mimetipo_block_view_alter(&$data, $block) {
+// We'll search for the string 'uppercase'.
+  if ((!empty($block->title) && stristr($block->title, 'uppercase')) || (!empty($data['subject']) && stristr($data['subject'], 'uppercase'))) {
+// This will uppercase the default title.
+    $data['subject'] = isset($data['subject']) ? drupal_strtoupper($data['subject']) : '';
+// This will uppercase a title set in the UI.
+    $block->title = isset($block->title) ? drupal_strtoupper($block->title) : '';
+  }
+}*/
+/**
+* @} End of "defgroup block_mimetipo".
+*/ 

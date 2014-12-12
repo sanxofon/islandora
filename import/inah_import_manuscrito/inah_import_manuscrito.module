@@ -1,0 +1,19 @@
+<?php
+
+drupal_set_time_limit(1200);
+
+/**
+ * 
+ */
+function inah_import_manuscrito_menu(){
+	$items = array();
+	$items['admin/islandora/inah_import/manuscrito_batch'] = array(
+		'title' => t( 'Manuscrito batch import'),
+		'page callback' => 'drupal_get_form',
+		'page arguments' => array('inah_import_manuscrito_admin'),
+		'file' => 'include/inah_import_manuscrito_admin.inc',	
+		'access arguments' => array(true),
+		'type' => MENU_LOCAL_TASK,
+	  );
+  return $items;
+}

@@ -1,0 +1,6 @@
+name = "Islandora PDF Tab"
+description = "Adds a PDF tab to all objects that have a PDF datastream"
+dependencies[] = islandora
+package = Islandora
+core = 7.x
+version = 7.x-dev

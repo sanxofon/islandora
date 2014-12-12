@@ -1,0 +1,7 @@
+name = Islandora INAH Tabs
+dependencies[] = islandora
+description = Agrega tabs de jquery a la vista de los objetos de Islandora
+package = Repositorio INAH
+configure = admin/islandora/inah_tabs
+version = 7.x-dev
+core = 7.x
